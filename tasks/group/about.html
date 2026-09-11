@@ -1,67 +1,89 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Giới thiệu nhóm</title>
-
-    <style>
-        table {
-            border-collapse: collapse;
-            width: 600px;
-        }
-
-        th, td {
-            border: 1px solid black;
-            padding: 10px;
-            text-align: left;
-        }
-
-        th {
-            background-color: #85aeeb;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tổng hợp</title>
 </head>
-
 <body>
-
-    <h1 style="text-align: center;">Nhóm 2</h1>
-
-    <table>
+    <h1>NHÓM 2</h1>
+    <p>Nhóm 2 gồm 4 thành viên ngành Thương mại Điện tử lớp TMĐT02</p>
+    <h2>Danh sách thành viên</h2>
+    <ul>
+        <li>Nguyễn Quỳnh Anh 24107538</li>
+        <li>Tôn Thanh Bình 24103878</li>
+        <li>Vũ Quỳnh Chang 24107538</li>
+        <li>Đỗ Trịnh Thuỳ Dung 24107865</li>
+    </ul>
+    <h2>Thông tin từng thành viên</h2>
+    <div>
+        <h3>Đỗ Trịnh Thuỳ Dung</h3>
+        <img src="/ảnh/ảnhD.jpg" alt="Dung" width="200">
+        <p>Trưởng nhóm phụ trách phân công tổng hợp bài các thành viên</p>
+        <p>Link cá nhân:</p>
+        <a href="http://127.0.0.1:5500/dungdtt.html">Đỗ Trịnh Thuỳ Dung</a>
+    </div>
+    <br>
+    <div>
+        <h3>Vũ Quỳnh Chang</h3>
+        <img src="/ảnh/ảnh đại diện.JPG" alt="Chang" width="200">
+        <p>Thành viên nhóm phụ trách làm bài cá nhân, đóng góp ý kiến hoàn thành bài tập</p>
+        <p>Link cá nhân:</p>
+        <a href="http://127.0.0.1:5500/changvq.html">Vũ Quỳnh Chang</a>
+    </div>
+    <br>
+    <div>
+        <h3>Nguyễn Quỳnh Anh</h3>
+        <img src="/ảnh/anh_dai_dien.jpg.jpg" alt="Quỳnh Anh" width="200">
+        <p>Thành viên nhóm phụ trách làm bài cá nhân hoàn thiện bài nhóm</p>
+        <p>Link cá nhân:</p>
+        <a href="http://127.0.0.1:5500/anhnq.html">Nguyễn Quỳnh Anh</a>
+    </div>
+    <br>
+    <div>
+        <h3>Tôn Thanh Bình</h3>
+        <img src="/ảnh/ảnhB.jpg" alt="Bình" width="200">
+        <p>Thành viên phụ trách hoàn thành đúng hạn bài cá nhân và hoàn thành bài</p>
+        <p>Link cá nhân:</p>
+        <a href="http://127.0.0.1:5500/binhtt.html">Tôn Thanh Bình</a>
+    </div>
+    <h2>Bảng phân công công việc</h2>
+    <table border="1">
         <tr>
-            <th>STT</th>
             <th>Tên thành viên</th>
-            <th>MSSV</th>
-            <th>Lớp</th>
+            <th>Nhiệm vụ</th>
         </tr>
 
         <tr>
-            <td>1</td>
-            <td>Đỗ Trịnh Thùy Dung</td>
-            <td>24107865</td>
-            <td>TMDT 2</td>
+            <td>Đỗ Trịnh Thuỳ Dung</td>
+            <td>Trưởng nhóm,làm bài cá nhân, tạo github, tổng hợp bài</td>
         </tr>
 
         <tr>
-            <td>2</td>
-            <td>Vũ Quỳnh Chang</td>
-            <td>24107538</td>
-            <td>TMDT 2</td>
-        </tr>
-
-        <tr>
-            <td>3</td>
             <td>Nguyễn Quỳnh Anh</td>
-            <td>24103988</td>
-            <td>TMDT 2</td>
+            <td>Hoàn thành bài cá nhân, đóng góp sửa bài</td>
         </tr>
 
         <tr>
-            <td>4</td>
+            <td>Vũ Quỳnh Chang</td>
+            <td>Hoàn thành bài cá nhân, tổng hợp đóng góp sửa bài</td>
+        </tr>
+
+        <tr>
             <td>Tôn Thanh Bình</td>
-            <td>24103878</td>
-            <td>TMDT 2</td>
+            <td>Hoàn thành bài cá nhân, đóng góp hoàn thành bài</td>
         </tr>
     </table>
-
+    <br>
+    <h2>Form liên hệ</h2>
+    <form>
+        <label>Họ và tên:</label>
+        <input type="text">
+        <br><br>
+        <label>Email:</label>
+        <input type="email">
+        <br><br>
+        <input type="submit">
+    </form>
 </body>
 </html>
