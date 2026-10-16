@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyễn Quỳnh Anh</title>
+    <style>
+        body {
+            background: #fff8f6;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+ 
+        /* Nền: các đốm màu mờ chuyển động */
+        .blobs { position: fixed; inset: 0; z-index: -1; overflow: hidden; }
+        .blob {
+            position: absolute; border-radius: 50%;
+            filter: blur(70px); opacity: .55;
+            animation: float 18s ease-in-out infinite;
+        }
+        .blob.b1 { width: 420px; height: 420px; background: #efc1ca; top: -100px; left: -100px; }
+        .blob.b2 { width: 360px; height: 360px; background: #ffd6a5; bottom: -80px; right: -60px; animation-delay: -6s; }
+        .blob.b3 { width: 300px; height: 300px; background: #cdb4ff; top: 40%; left: 55%; animation-delay: -12s; opacity: .35; }
+ 
+        @keyframes float {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            33% { transform: translate(60px, 40px) scale(1.1); }
+            66% { transform: translate(-40px, 70px) scale(.95); }
+        }
+    </style>
+</head>
+<body>
+    <div class="blobs">
+        <div class="blob b1"></div>
+        <div class="blob b2"></div>
+        <div class="blob b3"></div>
+    </div>
+    <h1 style="color:rgb(235, 88, 112)">Nguyễn Quỳnh Anh</h1>
+
+    <p>MSSV: 24103988</p>
+    <p>Ngày sinh: 05/01/2006</p>
+    <p> Giới tính: Nữ</p>
+    <p>Lớp: TMĐT02</p>
+    <p>Ngành: Thương mại điện tử</p>
+    <h2 style="color:rgb(246, 113, 135)">Ảnh đại diện:</h2>
+    <img src="/anh_dai_dien.jpg.JPG" alt="ảnh đại diện nqa" width="200px">
+    <h2>Sở thích:</h2>
+<ul>
+    <li>🎧Nghe nhạc</li>
+    <li>🎬Xem phim</li>
+    <li>🏸Chơi cầu lông</li>
+    <li>✈️Du lịch và khám phá những địa điểm mới</li>
+    <li>🛒Mua sắm</li>
+</ul>
+
+<h2>Sở trường:</h2>
+ <ul>
+    <li>💬Giao tiếp tốt</li>
+    <li>🎨Làm việc nhóm</li>
+    <li>📚Ham học hỏi</li>
+    <li>🎤Thuyết trình trước đám đông</li>
+</ul>
+    <h2>Mục tiêu:</h2>
+    <ul>
+        <li>GPA 3.6</li>
+        <li>Chứng chỉ tiếng anh B2</li>
+        <li>HSK 4</li>
+        <li>Thành thạo các kỹ năng mềm</li>
+    </ul>
+</body>
+</html>
